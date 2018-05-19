@@ -5,7 +5,7 @@
   
   <xacro:macro name="plane_xacro" params="name:=robot">
     <gazebo>
-      <plugin filename="/home/silvos/Works/gazebo_ws/devel/lib/libgazebo_plane.so" name="gazebo_plane">
+      <plugin filename="libgazebo_plane.so" name="gazebo_plane">
         <robotNamespace>${name}</robotNamespace>
       </plugin>
     </gazebo>
