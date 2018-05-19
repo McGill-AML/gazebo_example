@@ -29,4 +29,8 @@
 #### Services
 * ~start_controller (std_srvs::Trigger)
 
+## Renaming the template
+You can easily rename the template package using the renaming script with the following command:
+    * 'cd src/gazebo_example && ./rename_pkg.sh gazebo_example NEW_PKG_NAME'
+
 
